@@ -4,13 +4,15 @@ import { Contact } from "../components/Contact"
 
 const Home = () => {
   return (
-    <div className='bg-gray-100 w-full min-h-screen'>
+    <div className='bg-zinc-700 w-full min-h-screen'>
 
-      <div id="home" className="p-8 h-screen flex flex-col items-center justify-center border border-orange-500">
-        <h1 className="text-4xl font-bold text-indigo-600">Hi, Im Rafael</h1>
-        <p className="text-xl ">Sample text just for hold</p>
+      <div id="home" className="p-8 h-screen flex flex-col items-center justify-center space-y-3">
 
-        <div className="grid grid-cols-2 gap-2 mt-2">
+        <h1 className="text-4xl font-bold text-orange-500">Hi, Im Rafael</h1>
+
+        <p className="text-2xl text-zinc-100">Web Developer <span className="text-orange-500">|</span> Freelancer</p>
+
+        <div className="sm:w-8/12 md:w-1/3 grid grid-cols-2 gap-3">
           <Button />
           <Button />
         </div>
