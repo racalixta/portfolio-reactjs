@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom"
+import bannerBg from "../assets/img/bannerBg.jpg"
 
 const ProjectDetails = () => {
   const { id } = useParams()
@@ -9,12 +10,12 @@ const ProjectDetails = () => {
       <div className="p-8 sm:w-full md:w-8/12 md:mx-auto space-y-6">
         <h1 className="text-4xl font-bold text-orange-500">Detalhes do Projeto {id}</h1>
 
-        <div className="bg-zinc-500 w-full h-auto rounded-md">
+        <div className="bg-zinc-500 w-full h-auto rounded-t-lg">
 
           <div className="">
             {/* Image */}
-            <div className="bg-indigo-500 w-auto h-72 rounded-t-lg flex items-center justify-center">
-            </div>
+            <img src={bannerBg} className="w-full h-auto rounded-t-lg flex items-center justify-center" />
+   
 
             {/* text area  */}
             <div className="bg-zinc-200 text-zinc-800 w-auto h-auto px-3 py-2 space-y-2">
