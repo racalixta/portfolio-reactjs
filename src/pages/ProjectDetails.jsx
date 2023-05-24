@@ -5,7 +5,7 @@ const ProjectDetails = () => {
   const { id } = useParams()
 
   return (
-    <div id="projects" className="bg-zinc-700 w-full min-h-screen border-b border-zinc-600">
+    <div id="projects" className="bg-zinc-700 w-full min-h-screen">
 
       <div className="p-8 sm:w-full md:w-8/12 md:mx-auto space-y-6">
         <h1 className="text-4xl font-bold text-orange-500">Detalhes do Projeto {id}</h1>

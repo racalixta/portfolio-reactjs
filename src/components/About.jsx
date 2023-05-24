@@ -1,11 +1,14 @@
 import meImg from '../assets/img/me-img.jpg'
 import { TechIcons } from '../assets/TechIcons'
+// import { ParticlesBackground } from './ParticlesBackground'
 
 export const About = () => {
   // const meImg = "https://i.imgur.com/RtR9urD.jpg";
   console.log(TechIcons)
   return (
     <div id="about" className="bg-zinc-800 w-full h-auto p-8">
+
+      {/* <ParticlesBackground /> */}
 
       <div className="sm:w-full md:w-8/12 md:mx-auto">
         <h1 className="text-orange-500 font-bold text-4xl mb-3">About Me</h1>

@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
 
 export const Footer = () => {
-  const general = "text-zinc-200 font-medium hover:text-indigo-400";
+  const general = "text-zinc-100 font-medium hover:text-indigo-400";
 
 
   return(
-    <footer className="bg-zinc-700 w-full p-8">
-
+    <footer className="bg-zinc-700 w-full p-8 border-t border-zinc-600">
+ 
       <div className="sm:w-full md:w-8/12 md:mx-auto ">
 
 
@@ -34,8 +34,8 @@ export const Footer = () => {
 
             <h2 className="text-orange-500 font-bold text-xl">Redes Sociais</h2>
 
-            <a href="/#contact" target="_blank" className={general}>LinkedIn</a>
-            <a href="/#contact" target="_blank" className={general}>Github</a>
+            <a href="https://www.linkedin.com/in/rafael-calixta-047344234/" target="_blank" rel="noreferrer" className={general}>LinkedIn</a>
+            <a href="https://github.com/racalixta" target="_blank" rel="noreferrer" className={general}>Github</a>
 
           </div>
         </div>
