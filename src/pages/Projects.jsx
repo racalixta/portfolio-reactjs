@@ -18,10 +18,10 @@ const Projects = () => {
       <div className="p-8 sm:w-full md:w-10/12 md:mx-auto space-y-6">
         <h1 className="text-4xl font-bold text-orange-500">Projetos</h1>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {mockProjects.map((item) => (
 
-            <ProjectCard key={item.id} image={item.image[1]} title={item.title} icons={item.icons} />
+            <ProjectCard key={item.id} id={item.id} image={item.image[1]} title={item.title} icons={item.icons} />
             
           ))}
 

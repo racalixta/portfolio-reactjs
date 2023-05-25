@@ -11,7 +11,7 @@ export const About = () => {
       {/* <ParticlesBackground /> */}
 
       <div className="sm:w-full md:w-8/12 md:mx-auto">
-        <h1 className="text-orange-500 font-bold text-4xl mb-3">About Me</h1>
+        <h1 className="text-orange-500 font-bold text-4xl mb-3">Sobre</h1>
       </div>
 
       <div className="bg-zinc-700 sm:w-full md:w-8/12 h-auto flex items-start mx-auto px-4 py-4 rounded-md shadow-md">
@@ -20,19 +20,29 @@ export const About = () => {
 
           <img className='flex h-36 w-36 rounded-full justify-center items-center border-2 border-orange-500 mx-auto mb-2' src={meImg} alt="" />
 
-          {/* <div className="flex h-32 w-32 rounded-full justify-center items-center border-2 border-amber-500 mb-2">
-          </div> */}
-
-          <div className="mx-auto text-zinc-100 text-justify mb-4">
+          <div className="mx-auto text-zinc-100 text-justify mb-4 space-y-2">
             <p><span className="font-bold">From:</span> Brasília, Brasil.</p>
 
-            <p><span className="font-bold">LinkedIn:</span> <span className="h-6 w-6 bg-blue-400">Icon</span></p>
+            
+            <p>
+              <a className="text-zinc-100 hover:text-orange-500" href="https://www.linkedin.com/in/rafael-calixta-047344234/" rel="noreferrer" >
+                <i className="bi bi-linkedin mr-1 text-xl"></i>
+                <span className="font-bold ">Linkedin</span>
+              </a>
+            </p>  
 
-            <p><span className="font-bold">Github:</span> <span className="h-6 w-6 bg-orange-400">Icon</span></p>
+            <p>
+              <a className="text-zinc-100 hover:text-orange-500" href="https://github.com/racalixta" rel="noreferrer" >
+                <i className="bi bi-github text-xl mr-1"></i> 
+                <span className="font-bold">Github</span>   
+              </a>
+            </p>
+
+            
 
           </div>
 
-          <h2 className="text-lg font-bold text-orange-600">Skills</h2>
+          <h2 className="text-lg font-bold text-orange-500">Skills</h2>
 
           <div className="grid grid-cols-3 gap-4 p-1">
             <img className="h-10 w-10" src={TechIcons.html} alt="" />
@@ -56,9 +66,9 @@ export const About = () => {
 
         </div>
 
-        <aside className="text-justify text-zinc-100 font-semibold w-8/12 md:w-10/12 p-2">
+        <aside className="text-justify text-zinc-100 font-medium leading-8 w-8/12 md:w-10/12 p-2">
           <p> <span className='mr-6'></span>
-            Meu nome é Rafael Calixta, tenho 23 anos e sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Paulista (Unip). Nesse momento estou cursando pós-graduação em Segurança da Informação e trabalhando como freelancer em desenvolvimento web. 
+            Meu nome é Rafael Calixta, tenho 23 anos e sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Paulista (Unip). Nesse momento estou cursando pós-graduação em Segurança da Informação e aceitando trabalhos como freelancer em desenvolvimento web, mas desejo fazer parte de uma empresa que proporciona crescimento profissional, proporcionando uma carreira que me desafie e recompense ao mesmo tempo em que permite utilizar meus conhecimentos e habilidades.
           </p>
 
           <p> <span className='mr-6'></span>

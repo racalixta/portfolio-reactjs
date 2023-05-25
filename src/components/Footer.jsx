@@ -10,32 +10,41 @@ export const Footer = () => {
       <div className="sm:w-full md:w-8/12 md:mx-auto ">
 
 
-        <div className="flex items-center ">
-          <h2 className="text-orange-500 font-bold text-2xl mb-3 mr-2">Logo</h2>
+        <div className="flex items-center space-x-4">
+          <a className="text-5xl font-bold text-orange-500 hover:text-indigo-400" href="/#home"  rel="noreferrer" >
+            <i className="bi bi-snow2" id="snow-logo"></i>     
+          </a>
 
           <div className="w-full border-t border-orange-500 flex flex-end">
           </div>
 
         </div>
 
-        <div className="grid grid-cols-2 gap-4 px-8 py-2">
-          <div className="flex flex-col">
+        <div className="grid grid-cols-2 gap-4 px-8 py-2 space-x-4">
+          <div className="flex flex-col border-r border-zinc-500 space-y-2">
 
             <h2 className="text-orange-500 font-bold text-xl">Menu</h2>
 
-            <a href="/#home" className={general} >Home</a>
-            <Link to="/projects" className={general} >Projects</Link>
-            <a href="/#about" className={general}>About</a>
-            <a href="/#contact" className={general}>Contact</a>
+            <a href="/#home" className={general} >Página Inicial</a>
+            <Link to="/projects" className={general} >Projetos</Link>
+            <a href="/#about" className={general}>Sobre</a>
+            <a href="/#contact" className={general}>Contato</a>
 
           </div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col space-y-2">
 
             <h2 className="text-orange-500 font-bold text-xl">Redes Sociais</h2>
 
-            <a href="https://www.linkedin.com/in/rafael-calixta-047344234/" target="_blank" rel="noreferrer" className={general}>LinkedIn</a>
-            <a href="https://github.com/racalixta" target="_blank" rel="noreferrer" className={general}>Github</a>
+            <a href="https://www.linkedin.com/in/rafael-calixta-047344234/" target="_blank" rel="noreferrer" className={general}>
+              <i className="bi bi-linkedin mr-1 text-xl"></i>
+              <span className="font-bold ">Linkedin</span>
+            </a>
+
+            <a href="https://github.com/racalixta" target="_blank" rel="noreferrer" className={general}>
+              <i className="bi bi-github text-xl mr-1"></i> 
+              <span className="font-bold">Github</span> 
+            </a>
 
           </div>
         </div>
