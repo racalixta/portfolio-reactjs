@@ -16,7 +16,7 @@ export const ProjectCard = ({ id, image, title, icons }) => {
 
 
       {/* text area  */}
-      <div className="bg-zinc-200 text-zinc-800 w-auto h-12 px-2 flex justify-between items-center group-hover:bg-indigo-400 group-hover:text-white">
+      <div className="bg-zinc-200 text-zinc-800 w-auto h-12 px-2 flex justify-between items-center group-hover:bg-indigo-400 group-hover:text-white border-t border-zinc-400">
 
         <h2 className="text-lg font-semibold">{title}</h2>
         

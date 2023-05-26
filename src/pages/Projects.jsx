@@ -6,11 +6,6 @@ import { ProjectCard } from "../components/ProjectCard"
 import { mockProjects } from "../core/services/mockProjects"
 
 const Projects = () => {
-  console.log(mockProjects)
-
-  // mockProjects.map((item) => {
-  //   console.log('id ' + item.icons)
-  // })
 
   return (
     <div id="projects" className="bg-zinc-700 w-full min-h-screen">

@@ -1,14 +1,11 @@
 import meImg from '../assets/img/me-img.jpg'
 import { TechIcons } from '../assets/TechIcons'
-// import { ParticlesBackground } from './ParticlesBackground'
 
 export const About = () => {
   // const meImg = "https://i.imgur.com/RtR9urD.jpg";
-  console.log(TechIcons)
+  // console.log(TechIcons)
   return (
     <div id="about" className="bg-zinc-800 w-full h-auto p-8">
-
-      {/* <ParticlesBackground /> */}
 
       <div className="sm:w-full md:w-8/12 md:mx-auto">
         <h1 className="text-orange-500 font-bold text-4xl mb-3">Sobre</h1>
@@ -21,18 +18,18 @@ export const About = () => {
           <img className='flex h-36 w-36 rounded-full justify-center items-center border-2 border-orange-500 mx-auto mb-2' src={meImg} alt="" />
 
           <div className="mx-auto text-zinc-100 text-justify mb-4 space-y-2">
-            <p><span className="font-bold">From:</span> Brasília, Brasil.</p>
+            <p><span className="font-bold">Local:</span> Brasília, Brasil.</p>
 
             
             <p>
-              <a className="text-zinc-100 hover:text-orange-500" href="https://www.linkedin.com/in/rafael-calixta-047344234/" rel="noreferrer" >
+              <a className="text-zinc-100 hover:text-indigo-300" href="https://www.linkedin.com/in/rafael-calixta-047344234/" rel="noreferrer" >
                 <i className="bi bi-linkedin mr-1 text-xl"></i>
                 <span className="font-bold ">Linkedin</span>
               </a>
             </p>  
 
             <p>
-              <a className="text-zinc-100 hover:text-orange-500" href="https://github.com/racalixta" rel="noreferrer" >
+              <a className="text-zinc-100 hover:text-indigo-300" href="https://github.com/racalixta" rel="noreferrer" >
                 <i className="bi bi-github text-xl mr-1"></i> 
                 <span className="font-bold">Github</span>   
               </a>
