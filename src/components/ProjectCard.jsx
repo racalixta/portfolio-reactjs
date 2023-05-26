@@ -2,6 +2,12 @@
 export const ProjectCard = ({ id, image, title, icons }) => {
   let pav = `/projects/${id}`
 
+  function randomNumber() {
+    let num = Math.random() * 100;
+    return num;
+
+  }
+
   return (
     <a href={pav} className="w-full h-auto group">
       
@@ -9,8 +15,6 @@ export const ProjectCard = ({ id, image, title, icons }) => {
       <div className="bg-cover bg-center h-72 md:h-36 lg:h-48 w-auto rounded-t-lg flex items-center justify-center text-center px-6" style={{
             backgroundImage: `url(${image})`,
           }}>    
-
-        {/* <h2 className="invisible bg-indigo-400 px-3 py-2 text-white text-3xl rounded-md font-medium group-hover:visible">{title}</h2> */}
         
       </div>
 
@@ -21,9 +25,9 @@ export const ProjectCard = ({ id, image, title, icons }) => {
         <h2 className="text-lg font-semibold">{title}</h2>
         
         {/* tech icons  */}
-        <div className="flex justify-between gap-3">
+        <div className="flex gap-2 w-fit">
           {icons.map((item) => (
-            <img className="h-7 w-7" src={item} alt="" key={id} />
+            <img className="h-7 w-7 sm:h-10 sm:w-10 md:h-7 md:w-7" src={item} alt="" key={`${id} ${randomNumber()}`} />
           ))}
 
         </div>

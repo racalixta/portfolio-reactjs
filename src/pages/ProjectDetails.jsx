@@ -10,10 +10,17 @@ const ProjectDetails = () => {
   mockProjects.map((pj) => {
 
     if(Number(id) === Number(pj.id)) {
+      console.log(randomNumber())
       return value = pj
     }
 
   });
+
+  function randomNumber() {
+    let num = Math.floor(Math.random() * 100);
+    return num;
+
+  }
 
   let icons = value.icons;
 
@@ -31,7 +38,7 @@ const ProjectDetails = () => {
    
 
             {/* text area  */}
-            <div className="bg-zinc-200 text-zinc-800 w-auto h-auto px-4 py-2 space-y-2">
+            <div className="bg-zinc-200 text-zinc-800 w-auto h-auto px-4 py-2 space-y-2 border-t border-zinc-400">
 
               <div className="w-full flex justify-between items-center border-b border-zinc-600">
                 <h2 className="text-2xl font-semibold mb-1">{value.title}</h2>
@@ -40,7 +47,7 @@ const ProjectDetails = () => {
                 <div className="flex items-center gap-3 mb-2">
                 
                   {icons.map((item) => (
-                    <img className="h-10 w-10" src={item} alt="" key={id} />
+                    <img className="h-10 w-10" src={item} alt="" key={`${id} + ${randomNumber()}`} />
                   ))}
 
                 </div>

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { usePath } from "../hooks/usePath";
-import { useEffect, useState } from "react";
+import { useState } from "react";
  
 const Header = () => {
   const general = "text-zinc-200 font-medium hover:text-indigo-400";
@@ -9,12 +9,6 @@ const Header = () => {
 
   const [menuShow, setMenuShow] = useState(true);
   const [menuHidden, setMenuHidden] = useState(false);
-
-  let largura = window.screen.width * window.devicePixelRatio + "x" + window.screen.height * window.devicePixelRatio;
-
-  useEffect(() => {
-    console.log(largura)
-  }, [largura])
 
   function onToggleMenu() {
     setMenuShow(!menuShow);

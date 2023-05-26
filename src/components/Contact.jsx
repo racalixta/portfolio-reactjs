@@ -40,13 +40,13 @@ export const Contact = () => {
   }
 
   return (
-    <div id="contact" className="bg-zinc-700 w-full h-auto p-8">
+    <div id="contact" className="bg-zinc-700 w-full h-auto px-4 sm:px-8 py-8">
 
-      <div className="sm:w-full md:w-8/12 md:mx-auto">
+      <div className="sm:w-full lg:w-8/12 mx-auto">
         <h1 className="text-orange-500 font-bold text-4xl mb-3">Contato</h1>
       </div>
 
-      <form className="sm:w/full md:w-8/12 mx-auto space-y-3" onSubmit={sendEmail}>
+      <form className="sm:w/full lg:w-8/12 mx-auto space-y-3" onSubmit={sendEmail}>
         <div className="grid grid-cols-2 gap-2">
           <input 
             className="h-10 border-2 border-orange-500 rounded-lg px-2 bg-zinc-100" 

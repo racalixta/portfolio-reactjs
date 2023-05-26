@@ -11,6 +11,8 @@ import android from "../../assets/img/projects/android.jpg"
 import formCadastro from "../../assets/img/projects/form-cadastro.png"
 import sistemaFinanceiro from "../../assets/img/projects/sistema-financeiro.png"
 import weatherApp from "../../assets/img/projects/weather-app.png"
+import mapApp from "../../assets/img/projects/map-app.png"
+import flagApp from "../../assets/img/projects/flag-app.png"
 // import  from "../../assets/img/projects/"
 // import  from "../../assets/img/projects/"
 
@@ -139,16 +141,26 @@ export const mockProjects = [
     icons: [`${techIconsLink.html}`, `${techIconsLink.css}`, `${techIconsLink.react}`, `${techIconsLink.javascript}`, `${techIconsLink.tailwind}`],
     techs: ["HTML5", "CSS3", "React", "Tailwind CSS"],
   },
-  // {
-  //   "id": 12,
-  //   "title": "App de Países",
-  //   "description": "Projeto de aplicativo com o intuito de mostrar informações de diversos países, para tal feito foi utilizado uma API com as informações dos países. As tecnologias utilizadas para o desenvolvimento foi HTML, CSS, React e TailwindCSS.",
-  //   "linkRepository": "https://github.com/racalixta/flag-app",
-  //   "linkSite": "https://flag-app-one.vercel.app/",
-  //   "image": ["https://i.imgur.com/aE0l99l.png", `${projectImg}`],
-  //   "icons": [`${techIconsLink.html}`, `${techIconsLink.css}`, `${techIconsLink.react}`, `${techIconsLink.tailwind}`],
-  //   "techs": ["HTML5", "CSS3", "React", "Tailwind CSS"],
-  // },
+  {
+    "id": 12,
+    "title": "Mapa App",
+    "description": "Processo seletivo que participei para criação de dois seletores, um de Estado e outros das Cidades desse Estado com a utilização da API do IBGE. Ao selecionar uma Cidade deveria buscar as informações da Cidade na API, como uma forma de fazer a mais utilizei a biblioteca Leaflet para mostrar o mapa da Cidade selecionada. Como forma de avialação era obrigatório o uso de ReactJS e Redux, para a estilização utilizei TailwindCSS. ",
+    "linkRepository": "https://github.com/racalixta/ps-ipam-seletor",
+    "linkSite": "https://ps-ipam-vercel-racalixta.vercel.app/",
+    "image": ["", `${mapApp}`],
+    "icons": [`${techIconsLink.html}`, `${techIconsLink.css}`, `${techIconsLink.react}`, `${techIconsLink.tailwind}`],
+    "techs": ["HTML5", "CSS3", "React", "TailwindCSS" ],
+  },
+  {
+    "id": 13,
+    "title": "App de Países",
+    "description": "Projeto de aplicativo com o intuito de mostrar informações de diversos países, para tal feito foi utilizado uma API com as informações dos países. As tecnologias utilizadas para o desenvolvimento foi HTML, CSS, React e TailwindCSS.",
+    "linkRepository": "https://github.com/racalixta/flag-app",
+    "linkSite": "https://flag-app-one.vercel.app/",
+    "image": ["https://i.imgur.com/aE0l99l.png", `${flagApp}`],
+    "icons": [`${techIconsLink.html}`, `${techIconsLink.css}`, `${techIconsLink.react}`, `${techIconsLink.tailwind}`],
+    "techs": ["HTML5", "CSS3", "React", "Tailwind CSS"],
+  },
 
   /*
   {
@@ -162,4 +174,6 @@ export const mockProjects = [
     "techs": ["HTML5", "CSS3", ],
   },
   */
+
+  
 ];
