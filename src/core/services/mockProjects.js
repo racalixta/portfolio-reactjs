@@ -1,19 +1,19 @@
 import { mockTechIcons } from "./mockTechIcons";
 
-import pokedex from "../../assets/img/projects/pokedex.png"
+import pokedex from "../../assets/img/projects/pokedex.jpg"
 import jogoLetreco from "../../assets/img/projects/jogo-letreco.jpg"
 import jogoForca from "../../assets/img/projects/jogo-forca.jpg"
 import portfolio from "../../assets/img/projects/portfolio.jpg"
-// import pomodoro from "../../assets/img/projects/pomodoro.png"
+import pomodoro from "../../assets/img/projects/pomodoro.jpg"
 import megaSena from "../../assets/img/projects/mega-sena.jpg"
-import imovi from "../../assets/img/projects/imovi.png"
+import imovi from "../../assets/img/projects/imovi.jpg"
 import android from "../../assets/img/projects/android.jpg"
-import formCadastro from "../../assets/img/projects/form-cadastro.png"
-import sistemaFinanceiro from "../../assets/img/projects/sistema-financeiro.png"
-import weatherApp from "../../assets/img/projects/weather-app.png"
-import mapApp from "../../assets/img/projects/map-app.png"
-import flagApp from "../../assets/img/projects/flag-app.png"
-import portfolio23 from "../../assets/img/projects/portfolio-23.png"
+import formCadastro from "../../assets/img/projects/form-cadastro.jpg"
+import sistemaFinanceiro from "../../assets/img/projects/sistema-financeiro.jpg"
+import weatherApp from "../../assets/img/projects/weather-app.jpg"
+import mapApp from "../../assets/img/projects/map-app.jpg"
+import flagApp from "../../assets/img/projects/flag-app.jpg"
+import portfolio23 from "../../assets/img/projects/portfolio-23.jpg"
 
 export const mockProjects = [
   {
@@ -146,16 +146,16 @@ export const mockProjects = [
     icons: [`${mockTechIcons.html}`, `${mockTechIcons.css}`],
     techs: ["HTML5", "CSS3"],
   },
-  // {
-  //   id: 14,
-  //   title: "Timer Pomodoro",
-  //   description: "Desafio de um Timer Pomodoro, que consiste em um Timer que alterna entre dois ciclos, um de trabalho/ação e um de descanso por uma quantidade de seções, com uma quantidade certa de minutos para cada ciclo, que pode ser escolhido pelo usuário.",
-  //   linkRepository: "https://github.com/racalixta/projeto-timer-pomodoro",
-  //   linkSite: "https://racalixta.github.io/projeto-timer-pomodoro/",
-  //   image: ["https://i.imgur.com/h5AwpV2.png", `${pomodoro}`],
-  //   icons: [`${mockTechIcons.html}`, `${mockTechIcons.css}`, `${mockTechIcons.javascript}`],
-  //   techs: ["HTML5", "CSS3", "JavaScript"],
-  // },
+  {
+    id: 14,
+    title: "Timer Pomodoro",
+    description: "Desafio de um Timer Pomodoro, que consiste em um Timer que alterna entre dois ciclos, um de trabalho/ação e um de descanso por uma quantidade de seções, com uma quantidade certa de minutos para cada ciclo, que pode ser escolhido pelo usuário.",
+    linkRepository: "https://github.com/racalixta/projeto-timer-pomodoro",
+    linkSite: "https://racalixta.github.io/projeto-timer-pomodoro/",
+    image: ["https://i.imgur.com/h5AwpV2.png", `${pomodoro}`],
+    icons: [`${mockTechIcons.html}`, `${mockTechIcons.css}`, `${mockTechIcons.javascript}`],
+    techs: ["HTML5", "CSS3", "JavaScript"],
+  },
   /*
   {
     "id": 10,
