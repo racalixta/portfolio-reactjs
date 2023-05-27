@@ -31,15 +31,13 @@ const Home = () => {
               </a>
             </Button>
             <Button type="secondary">
-              <a href="https://portfolio-project-racalixta.vercel.app/home" target="_blank" rel="noreferrer" >
+              <a href="https://docs.google.com/document/d/e/2PACX-1vQWUtraz0BYY4BGIRqAVp5niGArv1RNndrrqCdax2HgLN9AmSczRYMN35oyOUlFw-Ue7JD3Apm7YzXf/pub" target="_blank" rel="noreferrer" >
                 Currículo
               </a>
             </Button>
           </div>
 
         </div>
-
-  
 
       </div>
 

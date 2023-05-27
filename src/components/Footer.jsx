@@ -46,6 +46,11 @@ export const Footer = () => {
               <span className="font-bold">Github</span> 
             </a>
 
+            <a href="https://br.fiverr.com/ra_calixta/create-a-modern-website-using-reactjs-and-tailwindcss" target="_blank" rel="noreferrer" className={general}>
+              <i className="bi bi-basket3-fill text-xl mr-1"></i> 
+              <span className="font-bold">Fiverr</span> 
+            </a>
+
           </div>
         </div>
 

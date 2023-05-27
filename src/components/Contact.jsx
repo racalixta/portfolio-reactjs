@@ -88,9 +88,6 @@ export const Contact = () => {
         
       </form>
 
-      
-
-
     </div>
   )
 }

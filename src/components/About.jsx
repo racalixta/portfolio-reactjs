@@ -1,9 +1,9 @@
 import meImg from '../assets/img/me-img.jpg'
-import { TechIcons } from '../assets/TechIcons'
+import { mockTechIcons } from '../core/services/mockTechIcons'
 
 export const About = () => {
-  // const meImg = "https://i.imgur.com/RtR9urD.jpg";
-  // console.log(TechIcons)
+
+
   return (
     <div id="about" className="bg-zinc-800 w-full h-auto px-4 sm:px-8 py-8">
 
@@ -16,7 +16,7 @@ export const About = () => {
         <aside className="bg-zinc-500 p-2 rounded-md flex flex-row space-x-4 md:space-x-0 md:space-y-4 md:flex-col justify-around px-4 md:justify-center w-full items-stretch md:w-48 h-auto">
 
           <div className="w-1/2 md:w-full space-y-8 md:space-y-2">
-            <img className='flex h-36 w-36 rounded-full justify-center items-center border-2 border-orange-500 mx-auto mb-2' src={meImg} alt="" />
+            <img className='flex h-36 w-36 rounded-full justify-center items-center border-2 border-orange-500 mx-auto mb-2' src={meImg} alt="Rafael Calixta" />
 
             <div className="mx-auto text-zinc-100 text-justify mb-4 space-y-2">
               <p><span className="font-bold">Local:</span> Brasília, Brasil.</p>
@@ -46,22 +46,17 @@ export const About = () => {
             <h2 className="text-xl font-bold text-orange-500">Skills</h2>
 
             <div className="grid grid-cols-3 gap-2 sm:gap-4 p-1">
-              <img className="h-10 w-10" src={TechIcons.html} alt="" />
-              <img className="h-10 w-10" src={TechIcons.css} alt="" />
-              <img className="h-10 w-10" src={TechIcons.javascript} alt="" />
-              <img className="h-10 w-10" src={TechIcons.react} alt="" />
-              <img className="h-10 w-10" src={TechIcons.tailwind} alt="" />
-              <img className="h-10 w-10" src={TechIcons.typescript} alt="" />
-              <img className="h-10 w-10" src={TechIcons.bootstrap} alt="" />
-              <img className="h-10 w-10 bg-zinc-100 rounded-lg px-0.5" src={TechIcons.node} alt="" />
-              <img className="h-10 w-10 bg-zinc-100 rounded-full" src={TechIcons.github} alt="" />
-              <img className="h-10 w-10 bg-zinc-100 rounded-full" src={TechIcons.git} alt="" />
-              <img className="h-10 w-10" src={TechIcons.angular} alt="" />
-
-              {/* <img className="h-10 w-10" src={TechIcons.mysql} alt="" />
-              <img className="h-10 w-10" src={TechIcons.mongodb} alt="" />
-              <img className="h-10 w-10" src={TechIcons.sass} alt="" /> */}
-
+              <img className="h-10 w-10" src={mockTechIcons.html} alt="" />
+              <img className="h-10 w-10" src={mockTechIcons.css} alt="" />
+              <img className="h-10 w-10" src={mockTechIcons.javascript} alt="" />
+              <img className="h-10 w-10" src={mockTechIcons.react} alt="" />
+              <img className="h-10 w-10" src={mockTechIcons.tailwind} alt="" />
+              <img className="h-10 w-10" src={mockTechIcons.typescript} alt="" />
+              <img className="h-10 w-10" src={mockTechIcons.bootstrap} alt="" />
+              <img className="h-10 w-10 bg-zinc-100 rounded-lg px-0.5" src={mockTechIcons.node} alt="" />
+              <img className="h-10 w-10 bg-zinc-100 rounded-full" src={mockTechIcons.github} alt="" />
+              <img className="h-10 w-10 bg-zinc-100 rounded-full" src={mockTechIcons.git} alt="" />
+              <img className="h-10 w-10" src={mockTechIcons.angular} alt="" />
 
             </div>
 
@@ -72,19 +67,15 @@ export const About = () => {
 
         <section className="text-justify text-zinc-100 font-medium leading-8 w-full md:w-8/12 lg:w-10/12 p-2">
           <p> <span className='mr-6'></span>
-            Meu nome é Rafael Calixta, tenho 23 anos e sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Paulista (Unip). Nesse momento estou cursando pós-graduação em Segurança da Informação e aceitando trabalhos como freelancer em desenvolvimento web, mas desejo fazer parte de uma empresa que proporciona crescimento profissional, proporcionando uma carreira que me desafie e recompense ao mesmo tempo em que permite utilizar meus conhecimentos e habilidades.
+            Meu nome é Rafael Calixta, tenho 23 anos e sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Paulista (Unip). Nesse momento estou cursando pós-graduação em Segurança da Informação e estou disposto a aceitar trabalhos como freelancer em desenvolvimento web, mas o meu desejo é fazer parte de uma empresa que proporcione crescimento profissional, possibilitando uma carreira que me desafie e recompense, ao mesmo tempo que permita utilizar e ampliar meus conhecimentos e habilidades adquiridos.
           </p>
 
           <p> <span className='mr-6'></span>
-            Comecei a cursar a faculdade no primeiro semestre de 2020, na epóca, por estar morando em uma cidade do interior, Tabatinga-AM, a melhor opção de estudo era o modo de ensino à distância. Porém, por ser um cidade isolada e pequena as condições de internet eram precárias, o que foi um grande desafio e um ensino sobre perseverança à minha pessoa, com esses conhecimentos adquiridos, ao final de 2021, me formei e voltei a morar em Brasília-DF, onde resido atualmente.
+            Comecei a cursar a faculdade no primeiro semestre de 2020, à época, por estar morando em uma cidade do interior, Tabatinga-AM, a melhor opção de estudo era o modo de ensino à distância. Porém, por ser um cidade isolada e pequena, as condições de internet eram precárias, o que foi um grande desafio e uma lição de perseverança e superação, assim, ao final de 2021, me formei e voltei a morar em Brasília-DF, onde resido atualmente.
           </p>
 
           <p> <span className='mr-6'></span>
-            Com os conhecimentos que
-            possuo, ofereço soluções em serviços digitais na área de Desenvolvimento Web.
-            Sou uma pessoa que admira a simplicidade para resolver problemas
-            grandes/complexos e entendo que a disciplina me faz alcançar metas de longo
-            prazo.
+            Com os conhecimentos que possuo, ofereço soluções em serviços digitais na área de Desenvolvimento Web. Sou uma pessoa que admira a simplicidade para resolver problemas grandes/complexos e entendo que a disciplina me faz alcançar metas de longo prazo.
           </p>
 
         </section>

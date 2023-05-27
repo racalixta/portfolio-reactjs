@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom"
-// import bannerBg from "../assets/img/bannerBg.jpg"
 import { mockProjects } from "../core/services/mockProjects"
 import { Button } from "../components/Button"
 
@@ -76,17 +75,12 @@ const ProjectDetails = () => {
 
             </div>
 
-
-
-
           </div>
 
         </div>
 
 
       </div>
-
-
 
     </div>
   )
