@@ -62,7 +62,7 @@ export const mockProjects = [
     description: "Desafio de um Timer Pomodoro, que consiste em um Timer que alterna entre dois ciclos, um de trabalho/ação e um de descanso por uma quantidade de seções, com uma quantidade certa de minutos para cada ciclo, que pode ser escolhido pelo usuário.",
     linkRepository: "https://github.com/racalixta/projeto-timer-pomodoro",
     linkSite: "https://racalixta.github.io/projeto-timer-pomodoro/",
-    image: ["https://i.imgur.com/h5AwpV2.png", `${pomo1}`],
+    image: ["https://i.imgur.com/h5AwpV2.png", `${pomo}`],
     icons: [`${mockTechIcons.html}`, `${mockTechIcons.css}`, `${mockTechIcons.javascript}`],
     techs: ["HTML5", "CSS3", "JavaScript"],
   },
