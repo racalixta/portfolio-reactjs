@@ -4,7 +4,7 @@ import pokedex from "../../assets/img/projects/pokedex.png"
 import jogoLetreco from "../../assets/img/projects/jogo-letreco.jpg"
 import jogoForca from "../../assets/img/projects/jogo-forca.jpg"
 import portfolio from "../../assets/img/projects/portfolio.jpg"
-import pomo from "../../assets/img/projects/pomo.PNG"
+import pomodoro from "../../assets/img/projects/pomodoro.png"
 import megaSena from "../../assets/img/projects/mega-sena.jpg"
 import imovi from "../../assets/img/projects/imovi.png"
 import android from "../../assets/img/projects/android.jpg"
@@ -62,7 +62,7 @@ export const mockProjects = [
     description: "Desafio de um Timer Pomodoro, que consiste em um Timer que alterna entre dois ciclos, um de trabalho/ação e um de descanso por uma quantidade de seções, com uma quantidade certa de minutos para cada ciclo, que pode ser escolhido pelo usuário.",
     linkRepository: "https://github.com/racalixta/projeto-timer-pomodoro",
     linkSite: "https://racalixta.github.io/projeto-timer-pomodoro/",
-    image: ["https://i.imgur.com/h5AwpV2.png", `${pomo}`],
+    image: ["https://i.imgur.com/h5AwpV2.png", `${pomodoro}`],
     icons: [`${mockTechIcons.html}`, `${mockTechIcons.css}`, `${mockTechIcons.javascript}`],
     techs: ["HTML5", "CSS3", "JavaScript"],
   },
