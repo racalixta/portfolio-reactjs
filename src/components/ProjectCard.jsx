@@ -1,7 +1,5 @@
 
 export const ProjectCard = ({ id, image, title, icons }) => {
-  let pav = `/projects/${id}`
-
   function randomNumber() {
     let num = Math.random() * 100;
     return num;
@@ -9,7 +7,7 @@ export const ProjectCard = ({ id, image, title, icons }) => {
   }
 
   return (
-    <a href={pav} className="w-full h-auto group">
+    <a href={`/projects/${id}`} className="w-full h-auto group">
       
       
       <div className="bg-cover bg-center h-72 md:h-36 lg:h-48 w-auto rounded-t-lg flex items-center justify-center text-center px-6" style={{
