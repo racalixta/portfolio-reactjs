@@ -6,7 +6,7 @@ import { ParticlesBackground } from "../components/ParticlesBackground"
 
 
 const Home = () => {
-
+ 
   return (
     <div className='bg-zinc-700 w-full min-h-screen static'>
 
