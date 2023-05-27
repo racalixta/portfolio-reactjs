@@ -4,7 +4,7 @@ import pokedex from "../../assets/img/projects/pokedex.png"
 import jogoLetreco from "../../assets/img/projects/jogo-letreco.jpg"
 import jogoForca from "../../assets/img/projects/jogo-forca.jpg"
 import portfolio from "../../assets/img/projects/portfolio.jpg"
-import pomodoro from "../../assets/img/projects/pomodoro.png"
+// import pomodoro from "../../assets/img/projects/pomodoro.png"
 import megaSena from "../../assets/img/projects/mega-sena.jpg"
 import imovi from "../../assets/img/projects/imovi.png"
 import android from "../../assets/img/projects/android.jpg"
@@ -58,16 +58,6 @@ export const mockProjects = [
   },
   {
     id: 5,
-    title: "Timer Pomodoro",
-    description: "Desafio de um Timer Pomodoro, que consiste em um Timer que alterna entre dois ciclos, um de trabalho/ação e um de descanso por uma quantidade de seções, com uma quantidade certa de minutos para cada ciclo, que pode ser escolhido pelo usuário.",
-    linkRepository: "https://github.com/racalixta/projeto-timer-pomodoro",
-    linkSite: "https://racalixta.github.io/projeto-timer-pomodoro/",
-    image: ["https://i.imgur.com/h5AwpV2.png", `${pomodoro}`],
-    icons: [`${mockTechIcons.html}`, `${mockTechIcons.css}`, `${mockTechIcons.javascript}`],
-    techs: ["HTML5", "CSS3", "JavaScript"],
-  },
-  {
-    id: 6,
     title: "Controle Financeiro",
     description: "Projeto com ideia de criar um sistema de controle de finanças. Para a construção do projeto foi utilizado ReactJS junto com Typescript, Styled Components, HTML e CSS. Para o deploy do aplicativo foi utilizado o Vercel.",
     linkRepository: "https://github.com/racalixta/expense-tracker",
@@ -77,7 +67,7 @@ export const mockProjects = [
     techs: ["HTML5", "CSS3", "React", "Typescript" ],
   },
   {
-    id: 7,
+    id: 6,
     title: "iMovi",
     description: "Desafio de criar um landing page responsiva para diversos tamanhos de telas de uma empresa de imóveis. Para a criação foi utilizado HTML5, CSS3 e Bootstrap 5.",
     linkRepository: "https://github.com/racalixta/projeto-imovi",
@@ -87,7 +77,7 @@ export const mockProjects = [
     techs: ["HTML5", "CSS3", "Bootstrap"],
   },
   {
-    id: 8,
+    id: 7,
     title: "Formulário de Cadastro",
     description: "Desafio de criar um formulário de cadastro que fosse responsivo à diversos tamanhos de telas. Para não ser apenas um HTML e CSS estático, desenvolvi uma pequena validação em JavaScript do formulário.",
     linkRepository: "https://github.com/racalixta/projeto-formulario-cadastro",
@@ -97,7 +87,7 @@ export const mockProjects = [
     techs: ["HTML5", "CSS3", "JavaScript"],
   },
   {
-    id: 9,
+    id: 8,
     title: "Clima",
     description: "Projeto de um aplciativo para monitoramento do clima, foi construído com o uso de uma Weather API da Open Weather, com o intuito de ser possível pesquisar qualquer cidade do mundo. Foi utilizado as seguintes tecnologias: React, TailwindCSS, HTML e CSS.",
     linkRepository: "https://github.com/racalixta/weather-app",
@@ -107,7 +97,7 @@ export const mockProjects = [
     techs: ["HTML5", "CSS3", "React", "Tailwind CSS"],
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "App de Países",
     "description": "Projeto de aplicativo com o intuito de mostrar informações de diversos países, para tal feito foi utilizado uma API com as informações dos países. As tecnologias utilizadas para o desenvolvimento foi HTML, CSS, React e TailwindCSS.",
     "linkRepository": "https://github.com/racalixta/flag-app",
@@ -117,7 +107,7 @@ export const mockProjects = [
     "techs": ["HTML5", "CSS3", "React", "Tailwind CSS"],
   },
   {
-    id: 11,
+    id: 10,
     title: "Jogo da Forca",
     description: "Desafio de criar um jogo da forca, com sorteio da palavra-chave automático, por meio de uma lista de plavras feito pelo JavaScript. Para a realização desse projeto foi utilizado HTML5, CSS3 e JavaScript.",
     linkRepository: "https://github.com/racalixta/projeto-forca",
@@ -127,7 +117,7 @@ export const mockProjects = [
     techs: ["HTML5", "CSS3", "JavaScript"],
   },
   {
-    id: 12,
+    id: 11,
     title: "Jogo Letreco",
     description: "Desafio de replicar o jogo Letreco, que consiste em descobrir qual é a palavra do dia em um certo número de tentativas. Para o desenvolvimento foi utilizado HTML5, CSS3 e JavaScript.",
     linkRepository: "https://github.com/racalixta/projeto-jogo-letreco",
@@ -137,7 +127,7 @@ export const mockProjects = [
     techs: ["HTML5", "CSS3", "JavaScript"],
   },
   {
-    id: 13,
+    id: 12,
     title: "Mega-Sena",
     description: "Este desafio foi pensado para desenvolver um simulador de sorteio da mega-sena. Para desenvolvido também um botão para alternar o site em o light mode e dark mode. Para a realização foi utilizado HTML5, CSS3 e JavaScript.",
     linkRepository: "https://github.com/racalixta/projeto-megaSena",
@@ -147,7 +137,7 @@ export const mockProjects = [
     techs: ["HTML5", "CSS3", "JavaScript"],
   },
   {
-    id: 14,
+    id: 13,
     title: "Site Android",
     description: "Desafio feito durante o curso de HTML5 e CSS3 do Curso em vídeo, o objetivo era criar um site responsivo sobre a histório do Android. Foi utilizado HTML5 e CSS3.",
     linkRepository: "https://github.com/racalixta/projeto-android",
@@ -156,7 +146,16 @@ export const mockProjects = [
     icons: [`${mockTechIcons.html}`, `${mockTechIcons.css}`],
     techs: ["HTML5", "CSS3"],
   },
-
+  // {
+  //   id: 14,
+  //   title: "Timer Pomodoro",
+  //   description: "Desafio de um Timer Pomodoro, que consiste em um Timer que alterna entre dois ciclos, um de trabalho/ação e um de descanso por uma quantidade de seções, com uma quantidade certa de minutos para cada ciclo, que pode ser escolhido pelo usuário.",
+  //   linkRepository: "https://github.com/racalixta/projeto-timer-pomodoro",
+  //   linkSite: "https://racalixta.github.io/projeto-timer-pomodoro/",
+  //   image: ["https://i.imgur.com/h5AwpV2.png", `${pomodoro}`],
+  //   icons: [`${mockTechIcons.html}`, `${mockTechIcons.css}`, `${mockTechIcons.javascript}`],
+  //   techs: ["HTML5", "CSS3", "JavaScript"],
+  // },
   /*
   {
     "id": 10,
