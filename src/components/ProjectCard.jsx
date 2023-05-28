@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export const ProjectCard = ({ id, image, title, icons }) => {
   function randomNumber() {
@@ -7,15 +8,12 @@ export const ProjectCard = ({ id, image, title, icons }) => {
   }
 
   return (
-    <a href={`/projects/${id}`} className="w-full h-auto group">
-      
-      
+    <Link to={`/projects/${id}`} className="w-full h-auto group">
       <div className="bg-cover bg-center h-72 md:h-36 lg:h-48 w-auto rounded-t-lg flex items-center justify-center text-center px-6" style={{
             backgroundImage: `url(${image})`,
           }}>    
         
       </div>
-
 
       {/* text area  */}
       <div className="bg-zinc-200 text-zinc-800 w-auto h-12 px-2 flex justify-between items-center group-hover:bg-indigo-400 group-hover:text-white border-t border-zinc-400">
@@ -31,7 +29,6 @@ export const ProjectCard = ({ id, image, title, icons }) => {
         </div>
 
       </div>
-
-    </a>
+    </Link>
   )
 }

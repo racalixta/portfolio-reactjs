@@ -33,7 +33,7 @@ const ProjectDetails = () => {
 
           <div className="">
             {/* Image */}
-            <img src={value.image[1]} className="w-full h-auto rounded-t-lg flex items-center justify-center" />
+            <img src={value.image} className="w-full h-auto rounded-t-lg flex items-center justify-center" />
    
 
             {/* text area  */}
