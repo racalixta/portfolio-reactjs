@@ -4,9 +4,7 @@ import { Contact } from "../components/Contact"
 import bannerBg from "../assets/img/bannerBg.jpg"
 import { ParticlesBackground } from "../components/ParticlesBackground"
 
-
 const Home = () => {
- 
   return (
     <div className='bg-zinc-700 w-full min-h-screen static'>
 
@@ -20,7 +18,7 @@ const Home = () => {
 
 
           
-          <h1 className="text-4xl font-bold text-orange-500">Olá, sou Rafael</h1>
+          <h1 className="text-4xl font-bold text-orange-500">Olá, sou o Rafael</h1>
 
           <p className="text-2xl text-zinc-100">Web Developer <span className="text-orange-500">|</span> Freelancer</p>
 

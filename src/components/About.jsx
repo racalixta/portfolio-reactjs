@@ -67,15 +67,15 @@ export const About = () => {
 
         <section className="text-justify text-zinc-100 font-medium leading-8 w-full md:w-8/12 lg:w-10/12 p-2">
           <p> <span className='mr-6'></span>
-            Meu nome é Rafael Calixta, tenho 23 anos e sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Paulista (Unip). Nesse momento estou cursando pós-graduação em Segurança da Informação e estou disposto a aceitar trabalhos como freelancer em desenvolvimento web, mas o meu desejo é fazer parte de uma empresa que proporcione crescimento profissional, possibilitando uma carreira que me desafie e recompense, ao mesmo tempo que permita utilizar e ampliar meus conhecimentos e habilidades adquiridos.
+            Meu nome é Rafael Calixta, tenho 23 anos e sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Paulista (Unip). Atualmente, estou cursando pós-graduação em Segurança da Informação. Sou um grande entusiasta por desenvolvimento web e estou em busca de oportunidades que me desafiem e me permitam crescer profissionalmente.
           </p>
 
           <p> <span className='mr-6'></span>
-            Comecei a cursar a faculdade no primeiro semestre de 2020, à época, por estar morando em uma cidade do interior, Tabatinga-AM, a melhor opção de estudo era o modo de ensino à distância. Porém, por ser um cidade isolada e pequena, as condições de internet eram precárias, o que foi um grande desafio e uma lição de perseverança e superação, assim, ao final de 2021, me formei e voltei a morar em Brasília-DF, onde resido atualmente.
+            Durante minha jornada acadêmica, enfrentei desafios significativos ao estudar em uma cidade do interior com condições de internet precárias. No entanto, minha perseverança me levou a concluir minha graduação em 2021 e me estabelecer em Brasília-DF, onde moro atualmente.
           </p>
 
           <p> <span className='mr-6'></span>
-            Com os conhecimentos que possuo, ofereço soluções em serviços digitais na área de Desenvolvimento Web. Sou uma pessoa que admira a simplicidade para resolver problemas grandes/complexos e entendo que a disciplina me faz alcançar metas de longo prazo.
+            Com meus conhecimentos em Desenvolvimento Web, ofereço soluções digitais personalizadas. Sou adepto da simplicidade para resolver problemas complexos e acredito que a disciplina é fundamental para alcançar metas de longo prazo. Estou pronto para assumir projetos como freelancer, mas meu objetivo é encontrar uma empresa que me proporcione crescimento profissional e a oportunidade de aplicar e aprimorar minhas habilidades.
           </p>
 
         </section>
